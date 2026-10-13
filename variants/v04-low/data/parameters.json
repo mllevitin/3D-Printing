@@ -1,0 +1,42 @@
+{
+  "project": "AlphaServer DS10 - two stands for vertical placement",
+  "revision": "v0.4",
+  "units": "mm",
+  "quantity": 2,
+  "case": {
+    "external_thickness_mm": 130.5
+  },
+  "fit": {
+    "total_clearance_mm": 0.0,
+    "shrinkage_scale": 1.0,
+    "xy_compensation_mm": 0.0
+  },
+  "body": {
+    "sole_length_mm": 200.0,
+    "sole_depth_mm": 50.0,
+    "sole_thickness_mm": 6.0,
+    "total_height_mm": 76.93251533742331,
+    "jaw_thickness_mm": 6.299999999999997,
+    "outer_gusset_thickness_mm": 4.0,
+    "middle_gusset_thickness_mm": 6.0,
+    "outer_gusset_toe_mm": 35.0,
+    "middle_gusset_toe_mm": 10.0,
+    "gusset_profile_height_mm": 100.0,
+    "gusset_overlap_into_jaw_mm": 6.0
+  },
+  "printer_layout": {
+    "bed_mm": [
+      270.0,
+      270.0
+    ],
+    "max_height_mm": 256.0,
+    "part_separation_mm": 5.0,
+    "second_shift_along_long_axis_mm": 0.0,
+    "fixed_rotation_about_bed_z_deg": 0.0,
+    "placement_revision": "layout02_aligned"
+  },
+  "export": {
+    "mesh_linear_tolerance_mm": 0.03,
+    "mesh_angular_tolerance_rad": 0.005
+  }
+}

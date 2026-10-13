@@ -1,0 +1,130 @@
+{
+  "revision": "v0.4",
+  "units": "mm",
+  "brep_valid": true,
+  "solid_count": 1,
+  "mesh_watertight": true,
+  "mesh_connected": true,
+  "case_external_thickness_user_mm": 130.5,
+  "gap_mm": 130.5,
+  "left_inner_face_x_mm": 34.75,
+  "right_inner_face_x_mm": 165.25,
+  "dimensions_mm": [
+    200.0,
+    50.0,
+    76.93251533742331
+  ],
+  "brep_volume_mm3": 116844.42797053828,
+  "stl_volume_mm3": 116844.42482488614,
+  "mesh_vertices": 5084,
+  "mesh_triangles": 10164,
+  "copies_share_same_3mf_mesh": true,
+  "quantity": 2,
+  "placement": {
+    "angle_z_deg": 0.0,
+    "second_shift_local_mm": [
+      0.0,
+      55.0,
+      0.0
+    ],
+    "placement_revision": "layout02_aligned",
+    "separation_mm": 5.0,
+    "scale": 1,
+    "mirror": false,
+    "transforms": [
+      [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          34.999997882046955
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          82.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          34.999997882046955
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          137.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    ],
+    "bed_mm": [
+      270.0,
+      270.0
+    ],
+    "bounds_mm": [
+      [
+        [
+          35.00001737674211,
+          82.5,
+          0.0
+        ],
+        [
+          234.9999826232579,
+          132.5,
+          76.9325180053711
+        ]
+      ],
+      [
+        [
+          35.00001737674211,
+          137.5,
+          0.0
+        ],
+        [
+          234.9999826232579,
+          187.5,
+          76.9325180053711
+        ]
+      ]
+    ]
+  },
+  "step_roundtrip_valid": true,
+  "source_files": {
+    "step": "ds10_stand_v04.step",
+    "stl": "ds10_stand_v04.stl",
+    "single_3mf": "ds10_stand_v04.3mf",
+    "two_3mf": "ds10_two_stands_v04.3mf"
+  },
+  "nominal_case_interference_mm3": 0.0,
+  "step_gap_between_actual_planes_mm": 130.5,
+  "source_parameter_sha256": "cd96d6fc22fd041f7b63d591545a92842c3508c9c5068bad189e8d7042792ea1",
+  "status": "geometry_validated"
+}

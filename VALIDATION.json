@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-13T09:38:22.354231+00:00",
+  "language_review": {
+    "status": "passed",
+    "language": "en",
+    "text_files_and_archive_members_checked": 72,
+    "cyrillic_text_found": false,
+    "three_mf_language_metadata": "English"
+  },
+  "variants": [
+    {
+      "revision": "v0.3",
+      "status": "passed",
+      "dimensions_mm": [
+        200.0,
+        50.0,
+        100.0
+      ],
+      "gap_mm": 131.10000000000002,
+      "brep_valid": true,
+      "connected_solid_count": 1,
+      "mesh_watertight": true,
+      "source_matches_step": true,
+      "source_added_volume_mm3": 0.0,
+      "source_removed_volume_mm3": 0.0,
+      "two_instances_per_packet": true,
+      "full_mesh_matches": true,
+      "rigid_scale_one": true,
+      "max_vertex_difference_mm": 5.981953052014433e-06,
+      "package_sha256": "a3d84f1bd1a66760258a606d97b82733a917d538722ee1c7845b29dbc280e0c2",
+      "print_completed": true
+    },
+    {
+      "revision": "v0.4",
+      "status": "passed",
+      "dimensions_mm": [
+        200.0,
+        50.0,
+        76.9325153374288
+      ],
+      "gap_mm": 130.5,
+      "brep_valid": true,
+      "connected_solid_count": 1,
+      "mesh_watertight": true,
+      "source_matches_step": true,
+      "source_added_volume_mm3": 0.0,
+      "source_removed_volume_mm3": 0.0,
+      "two_instances_per_packet": true,
+      "full_mesh_matches": true,
+      "rigid_scale_one": true,
+      "max_vertex_difference_mm": 5.981953052014433e-06,
+      "package_sha256": "5013e7d9d9fee313e4244dc981acb0960ca072f90c0420f3e397d249b027806c",
+      "print_completed": true
+    }
+  ]
+}

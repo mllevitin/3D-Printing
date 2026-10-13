@@ -1,0 +1,99 @@
+{
+  "revision": "v0.3",
+  "units": "mm",
+  "orientation": {
+    "X": "Across the case, along the long axis of the stand",
+    "Y": "Along the case, depth of one stand",
+    "Z": "Upward from the bed"
+  },
+  "dimensions": [
+    {
+      "code": "M00.01",
+      "element": "E00",
+      "name": "External case thickness",
+      "value_mm": 130.5,
+      "status": "user_reported",
+      "definition": "Between external case walls along X, including both walls"
+    },
+    {
+      "code": "M01.01",
+      "element": "E01",
+      "name": "Overall base width",
+      "value_mm": 200,
+      "status": "user_reported",
+      "definition": "Between the minimum and maximum base X coordinates, including rounded ends"
+    },
+    {
+      "code": "M01.02",
+      "element": "E01",
+      "name": "Base depth",
+      "value_mm": 50,
+      "status": "user_reported",
+      "definition": "Between the minimum and maximum base Y coordinates"
+    },
+    {
+      "code": "M01.03",
+      "element": "E01",
+      "name": "Base thickness",
+      "value_mm": 6,
+      "status": "assumed",
+      "definition": "From Z=0 to the case support plane at Z=6"
+    },
+    {
+      "code": "M01.04",
+      "element": "E01",
+      "name": "Semicircular end radius",
+      "value_mm": 25,
+      "status": "derived",
+      "definition": "Half of M01.02, in the XY plane"
+    },
+    {
+      "code": "M01.05",
+      "element": "E01",
+      "name": "Overall stand height",
+      "value_mm": 100,
+      "status": "assumed",
+      "definition": "From the bed at Z=0 to the wall tops at Z=100"
+    },
+    {
+      "code": "M02.01",
+      "element": "E02",
+      "name": "Left wall thickness",
+      "value_mm": 6,
+      "status": "assumed",
+      "definition": "Between parallel retaining-wall faces along X"
+    },
+    {
+      "code": "M03.01",
+      "element": "E03",
+      "name": "Right wall thickness",
+      "value_mm": 6,
+      "status": "assumed",
+      "definition": "Between parallel retaining-wall faces along X"
+    },
+    {
+      "code": "M02-03.01",
+      "element": "E02/E03",
+      "name": "Clear slot between retaining walls",
+      "value_mm": 131.1,
+      "status": "derived_from_proposed_clearance",
+      "definition": "Between inner retaining-wall faces along X, excluding wall thicknesses"
+    },
+    {
+      "code": "M00-02.01",
+      "element": "E00/E02",
+      "name": "Left clearance",
+      "value_mm": 0.3,
+      "status": "proposed_not_user_confirmed",
+      "definition": "Between the outer left case wall and the inner left retaining-wall face along X"
+    },
+    {
+      "code": "M00-03.01",
+      "element": "E00/E03",
+      "name": "Right clearance",
+      "value_mm": 0.3,
+      "status": "proposed_not_user_confirmed",
+      "definition": "Between the outer right case wall and the inner right retaining-wall face along X"
+    }
+  ]
+}
